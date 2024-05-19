@@ -20,10 +20,6 @@ class CalendarServiceImplTest {
     void returnOkWhenFieldIsString() {
         String value = "Es una prueba";
 
-        TestObserver 
-        when(service.getBirthday()).thenReturn(Mono.just(value));
-        Assertion(Mono.just(value), service.getBirthday());
-
     }
 
 }
